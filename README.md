@@ -1,1 +1,1 @@
-# lms
+# Library management system in psql
