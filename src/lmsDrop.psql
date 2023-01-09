@@ -1,0 +1,21 @@
+DROP TABLE IF EXISTS books           CASCADE;
+DROP TABLE IF EXISTS resources         CASCADE;
+DROP TABLE IF EXISTS prequels   CASCADE;
+DROP TABLE IF EXISTS edition         CASCADE;
+DROP TABLE IF EXISTS author    CASCADE;
+
+/* ----- RELEASE ----- */
+DROP TABLE IF EXISTS genre        CASCADE;
+DROP TABLE IF EXISTS language      CASCADE;
+
+/* ----- PHYSICAL BOOK ----- */
+DROP TABLE IF EXISTS users  CASCADE;
+DROP TABLE IF EXISTS students         CASCADE;
+
+/* ----- USER ----- */
+DROP TABLE IF EXISTS admins     CASCADE;
+DROP TABLE IF EXISTS borrowing        CASCADE;
+DROP TABLE IF EXISTS fines          CASCADE;
+
+/* ----- BORROW ----- */ 
+DROP TABLE IF EXISTS transactions        CASCADE;
