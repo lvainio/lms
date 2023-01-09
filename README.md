@@ -4,6 +4,7 @@
 <img src="images/image(1).png" width="1000">
 
 <br />
+
 ## Useful resources:
 
 ### Create database visualisation
